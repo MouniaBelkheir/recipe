@@ -21,11 +21,9 @@ The challenge is to build out the recipe page and get it looking as close to the
 ### Screenshot
 
 - Desktop version
-![desktop version](src/images/desktop.png)
-  
+  ![desktop version](src/images/desktop.png)
 - Mobile version
-![mobile version](src/images/mobile.png)
-  
+  ![mobile version](src/images/mobile.png)
 
 ### Links
 
