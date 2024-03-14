@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -444,7 +448,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -494,7 +498,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -544,208 +548,206 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-0 {
+.m-0{
   margin: 0px;
 }
 
-.my-10 {
+.my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.table {
+.table{
   display: table;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.list-decimal {
+.list-decimal{
   list-style-type: decimal;
 }
 
-.list-disc {
+.list-disc{
   list-style-type: disc;
 }
 
-.flex-row {
+.flex-row{
   flex-direction: row;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.rounded-lg {
+.rounded-lg{
   border-radius: 0.5rem;
 }
 
-.border-b {
+.border-b{
   border-bottom-width: 1px;
 }
 
-.bg-orange-100 {
+.bg-orange-100{
   --tw-bg-opacity: 1;
   background-color: rgb(255 237 213 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-pink-50 {
+.bg-pink-50{
   --tw-bg-opacity: 1;
   background-color: rgb(253 242 248 / var(--tw-bg-opacity));
 }
 
-.p-7 {
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-7{
   padding: 1.75rem;
 }
 
-.p-8 {
+.p-8{
   padding: 2rem;
 }
 
-.py-4 {
+.py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.pb-2 {
+.pb-2{
   padding-bottom: 0.5rem;
 }
 
-.pb-4 {
+.pb-4{
   padding-bottom: 1rem;
 }
 
-.pb-5 {
+.pb-5{
   padding-bottom: 1.25rem;
 }
 
-.pb-7 {
+.pb-7{
   padding-bottom: 1.75rem;
 }
 
-.pl-10 {
+.pl-10{
   padding-left: 2.5rem;
 }
 
-.pl-4 {
+.pl-4{
   padding-left: 1rem;
 }
 
-.pl-5 {
+.pl-5{
   padding-left: 1.25rem;
 }
 
-.pt-0 {
+.pt-0{
   padding-top: 0px;
 }
 
-.pt-3 {
+.pt-3{
   padding-top: 0.75rem;
 }
 
-.pt-4 {
+.pt-4{
   padding-top: 1rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-outfit{
+  font-family: Outfit, sans-serif;
 }
 
-.text-4xl {
+.font-youngserif{
+  font-family: Young Serif, serif;
+}
+
+.text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.text-xl {
+.text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.font-bold {
+.font-bold{
   font-weight: 700;
 }
 
-.leading-loose {
-  line-height: 2;
-}
-
-.leading-10 {
+.leading-10{
   line-height: 2.5rem;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.leading-loose{
+  line-height: 2;
 }
 
-.text-gray-900 {
+.text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.text-pink-900 {
+.text-pink-900{
   --tw-text-opacity: 1;
   color: rgb(131 24 67 / var(--tw-text-opacity));
 }
 
-.text-yellow-800 {
+.text-yellow-800{
   --tw-text-opacity: 1;
   color: rgb(133 77 14 / var(--tw-text-opacity));
 }
 
-.marker\:font-bold *::marker {
+.marker\:font-bold *::marker{
   font-weight: 700;
 }
 
-.marker\:text-yellow-800 *::marker {
+.marker\:text-yellow-800 *::marker{
   color: rgb(133 77 14 );
 }
 
-.marker\:font-bold::marker {
+.marker\:font-bold::marker{
   font-weight: 700;
 }
 
-.marker\:text-yellow-800::marker {
+.marker\:text-yellow-800::marker{
   color: rgb(133 77 14 );
 }
 
-@media (min-width: 768px) {
-  .md\:m-20 {
+@media (min-width: 768px){
+  .md\:m-20{
     margin: 5rem;
   }
 
-  .md\:m-8 {
+  .md\:m-8{
     margin: 2rem;
   }
 
-  .md\:w-11\/12 {
+  .md\:w-11\/12{
     width: 91.666667%;
   }
 
-  .md\:max-w-3xl {
+  .md\:max-w-3xl{
     max-width: 48rem;
   }
 
-  .md\:rounded-3xl {
+  .md\:rounded-3xl{
     border-radius: 1.5rem;
   }
 
-  .md\:rounded-xl {
+  .md\:rounded-xl{
     border-radius: 0.75rem;
   }
 
-  .md\:text-5xl {
+  .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
   }
